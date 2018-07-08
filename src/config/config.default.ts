@@ -1,13 +1,13 @@
 export = {
       knexConfig: {
-        client: 'mysql',
+        client: "mysql",
         connection: {
-          host: '127.0.0.1',
-          user: 'root',
-          password: '',
-          database: 'test'
+          host: "140.143.194.238",
+          user: "istar",
+          password: "iStar12345@",
+          database: "task"
         },
         useNullAsDefault: true
       },
       port: process.env.PORT || 4000
-    } 
+    } ;
