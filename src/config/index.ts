@@ -19,7 +19,7 @@ const firstSecret = "a093d64d01";
 const lastSecret = "a093d64d01";
 const knex = require("knex")(config.knexConfig);
 
-export {
+export = {
   config,
   firstSecret,
   lastSecret,

@@ -12,7 +12,7 @@ const userValidate = (params) => {
   return result;
 };
 
-export {
+export = {
   user,
   userValidate
 };
