@@ -11,7 +11,7 @@ import { config } from "./config/index";
 
 const app = new Koa();
 
-app.use(async (ctx, next) => {
+app.use(async (ctx: any, next) => {
   if (ctx.request.method === "OPTIONS") {
     ctx.response.status = 200;
   }

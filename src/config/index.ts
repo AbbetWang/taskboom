@@ -8,7 +8,7 @@ import production from "./config.prod";
 
 const env = process.env.NODE_ENV || "development";
 const configs = {
-  development: development,
+  development: development ,
   production: production
 };
 const defaultConfig = {
@@ -19,7 +19,7 @@ const firstSecret = "a093d64d01";
 const lastSecret = "a093d64d01";
 const knex = require("knex")(config.knexConfig);
 
-export = {
+export {
   config,
   firstSecret,
   lastSecret,

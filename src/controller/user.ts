@@ -2,7 +2,7 @@
   Written By AlfieriChou
   Alter By favorlm
 *********/
-import { knex } from "../config";
+import { knex }  from "../config";
 import { user } from "../model/user";
 import { createWriteStream } from "fs";
 const index = async (ctx) => {
